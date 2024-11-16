@@ -82,3 +82,45 @@ body {
     font-size: 28px;
     margin-top: -6px;
 }
+@media (min-width: 768px) {
+    .search {
+        flex-direction: row;
+    }
+
+    .search input {
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .search button {
+        width: 60px;
+        height: 60px;
+    }
+
+    .weather-icon {
+        width: 170px;
+    }
+
+    .weather h1 {
+        font-size: 80px;
+    }
+
+    .weather h2 {
+        font-size: 45px;
+    }
+
+    .details {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .col {
+        text-align: left;
+    }
+
+    .humidity,
+    .wind {
+        font-size: 28px;
+    }
+}
